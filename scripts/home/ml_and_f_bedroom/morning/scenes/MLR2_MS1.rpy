@@ -217,9 +217,9 @@ label MLR2_MS1_talk_label:
         Mom "Я знаю, что вы оба заняты, но старайтесь находить время друг для друга."
         Mom "Друзья приходят и уходят - но твои братья и сестры остаются с нами на всю свою жизнь."
         if renpy.loadable("patch.rpy"):
-            MC "Окей мам. I’ll keep that in mind."
+            MC "Окей мам. Я буду иметь это в виду."
         if not renpy.loadable("patch.rpy"):
-            MC "Хорошо, Линда. I’ll keep that in mind."
+            MC "Хорошо, Линда. Я буду иметь это в виду."
 
         $ MLR2_MS1_talk_count = 3
         $ can_MLR2_MS1_talk = False
@@ -295,8 +295,8 @@ label MLR2_MS1_kiss_label:
 
             scene MLR2_MS1_kiss_p5b
 
-            MC "(That’s my hands resting on her breasts now. Time to give them a firm squeeze.)"
-            MC "(I’ve heard that girls have really sensitive breasts - I wonder if Mom will feel pleasure if I squeeze them while I make out with her?)"
+            MC "(Теперь мои руки покоятся на ее груди. Время сильнее сжать)"
+            MC "(Я слышал, что у девочек очень чувствительная грудь-интересно, будет ли мама чувствовать удовольствие, если я буду сжимать их, пока я с ней целуюсь?)"
 
             scene MLR2_MS1_kiss_p5c
 
