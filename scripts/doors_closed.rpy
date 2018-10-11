@@ -5,6 +5,6 @@ label sis_nerdy_door_locked:
     hide screen time_skip_button
     hide screen day_time_viewer
     hide screen map_button
-    MC "It’s locked."
+    MC "Она заперта."
     jump corridor_morning1
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
