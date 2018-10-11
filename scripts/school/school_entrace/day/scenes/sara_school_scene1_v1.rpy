@@ -76,7 +76,7 @@ label sis_nerdy_school_scene1_v1_label:
         MC "Привет, сексуальная."
 
         scene sis_nerdy_school_scene1_v1_p2
-        Sara "Shush! Y-You can’t say stuff like that in public!"
+        Sara "Тихо! Ты не можешь говорить такие вещи на публике!"
 
         menu:
             "Ободрить ее.":
@@ -89,7 +89,7 @@ label sis_nerdy_school_scene1_v1_label:
                 $ can_sis_nerdy_school_scene1_v1 = False
                 $ can_hide_windows = False
                 jump school_entrance_day1
-            "Don’t embarrass her in school.":
+            "Не позорь ее в школе.":
 
 
                 MC "Да, ты, наверное, права. Я больше этого не скажу."
