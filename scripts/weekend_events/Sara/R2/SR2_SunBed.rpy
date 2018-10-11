@@ -10,7 +10,7 @@ label SR2_SunBed_label:
         show screen swimming_poll_scr
         $ can_hide_windows = False
         $ clickable = False
-        MC "We've already been there."
+        MC "Мы уже проходили через это."
         $ music_continue = False
         $ clickable = True
         jump swimming_poll_label
