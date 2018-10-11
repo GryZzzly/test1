@@ -278,8 +278,8 @@ label after_menu_SR2_jacuzzi_scene_label:
 
     MC "Oхх… Oхххх… Mмм…."
     scene SR2_weekend_jacuzzi_p21anim
-    Sara "*Лижет* *Shlurp* *Лижет*"
-    Sara "*SHLUUUURRRRP*"
+    Sara "*Лижет* *Лижет* *Лижет*"
+    Sara "*ЛИЖЕЕЕЕТ*"
 
     scene SR2_weekend_jacuzzi_p22
 
@@ -289,7 +289,7 @@ label after_menu_SR2_jacuzzi_scene_label:
 
     scene SR2_weekend_jacuzzi_p23
 
-    Sara "*Лижет* *GAG*"
+    Sara "*Лижет* *давиться*"
     MC "Aхххх! БЛЯ! Да!"
     MC "Ебать! Я собираюсь кончить!"
 
