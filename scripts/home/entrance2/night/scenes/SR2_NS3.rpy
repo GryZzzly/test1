@@ -74,99 +74,99 @@ label SR2_NS3_label:
     $ can_hide_windows = True
     scene SR2_NS3_p1 with dissolve
 
-    Sara "Hi, [player_name]. I was beginning to think you’d forgotten about me."
-    MC "Of course not! I couldn’t wait for tonight."
-    Sara "I hope you’re not scared of heights, by the way. We ARE going to be climbing ALL the way up onto the garage roof."
+    Sara "привет, [player_name]. Я уже начала думать, что ты забыл обо мне."
+    MC "Конечно, нет! Я не мог дождаться вечера."
+    Sara "Надеюсь, ты не боишься высоты, кстати. Мы собираемся забраться на крышу гаража."
 
     scene SR2_NS3_p2
 
-    MC "Pfft! That’s nothing! I’ll be able to help you up, there."
-    Sara "Aww, you’re sweet. Let’s get a move on! We’re missing the stars!"
+    MC "Пуф-ф! Ничего страшного! Я смогу помочь тебе подняться наверх."
+    Sara "Ой, ты такая милая. Давайте двигаться дальше! Мы упускаем звезды!"
     if renpy.loadable("patch.rpy"):
-        MC "Just be careful not to be too loud - we don’t want to wake Mom and Dad."
+        MC "Только будь осторожа, постарайся не шуметь - мы же не хотим будить маму и папу."
     else:
-        MC "Just be careful not to be too loud - we don’t want to wake Linda and Bob."
+        MC "Только будь осторожа, постарайся не шуметь - мы же не хотим будить Линда и Боб."
 
     scene SR2_NS3_p3
 
-    Sara "Oops! Sorry, I’ll try to keep my voice down. I’m just so excited."
-    MC "That’s fine."
-    MC "(There’s a nice floral scent in the air - is she wearing a new perfume?)"
+    Sara "Упс! Извините, я постараюсь говорить тише. Я просто так взволнована."
+    MC "Все нормально."
+    MC "(В воздухе витает приятный цветочный аромат у нее новый парфюм?)"
 
     scene SR2_NS3_p4
 
-    Sara "(Sigh…)"
-    MC "(That was a big sigh. How could she turn from excited to sighing so quickly.)"
-    MC "Huh? Is something wrong, Sara?"
-    Sara "It’s nothing… I was just kind of hoping that you’d kiss me as soon as we met."
-    MC "I could kiss you now."
+    Sara "(вздох)"
+    MC "(Это был глубокий вздох. Как она могла так быстро превратиться из возбужденной в вздыхающую.)"
+    MC "А? Что-то случилось, Сара?"
+    Sara "Ничего... я просто надеялась, что ты поцелуешь меня, как только мы встретимся."
+    MC "Я могу поцеловать тебя прямо сейчас."
 
     scene SR2_NS3_p5
 
-    Sara "I’d REALLY like that."
-    Sara "Every time you kiss me it feels like there are butterflies in my stomach. It’s like all the weight of life’s problems just float away."
-    Sara "I love you, [player_name]. Much more than any sis really should..."
+    Sara "Мне бы этого очень хотелось."
+    Sara "Каждый раз, когда ты целуешь меня, мне кажется, что у меня бабочки в животе. Как будто весь груз жизненных проблем просто улетучивается."
+    Sara "Я люблю тебя [player_name]. гораздо больше, чем как сестра ..."
 
     scene SR2_NS3_p6
 
-    Sara "I hope you feel as strongly for me as I do for you."
-    MC "(Her green eyes rival the stars in their beauty tonight.)"
-    MC "I do, Sara. I love you."
+    Sara "Надеюсь, ты так же сильно ко мне относишься, как и я к тебе."
+    MC "(Ее зеленые глаза соперничают со звездами в своей красоте сегодня.)"
+    MC "Я знаю, Сара. я люблю тебя."
 
     scene SR2_NS3_p7a
 
-    Sara "Hehe… Sorry about the frumpy jumper. I figured it was going to be cold."
-    MC "I think it looks good on you. Just answer me one question."
-    Sara "Yes?"
+    Sara "Хе-Хе... Прости за дурацкий джемпер. Я подумал, что будет холодно"
+    MC "Я думаю, это хорошо смотрится на тебе. Просто ответь мне на один вопрос."
+    Sara "Да?"
 
     scene SR2_NS3_p8a
 
-    MC "You thought it was going to be cold?"
-    Sara "Yeah, I did."
+    MC "Ты думала, будет холодно?"
+    Sara "Да, это так."
 
     scene SR2_NS3_p8b
 
-    MC "And yet, you decided not to wear any leggings?"
-    Sara "Hehe! [player_name]!"
-    MC "You should know by now, how turned on I get by your body. Especially your slender legs."
+    MC "И все же, вы решили не одевать леггинсы?"
+    Sara "Хехе! [player_name]!"
+    MC "Ты уже должена знать, как я возбуждаюсь от твоего тела. Особенно от стройных ног."
 
     scene SR2_NS3_p9
 
-    Sara "I love you so much, [player_name]. Hurry up and kiss me."
-    MC "(Sara needed a date like this. It offers her some respite from being grounded.)"
+    Sara "Я так сильно тебя люблю, [player_name]. Поторопись и Поцелуй меня."
+    MC "Саре нужно было такое свидание. это хорошая передышка от занятий.)"
     if renpy.loadable("patch.rpy"):
-        MC "(I hope that Mom finally changes her mind and lets up on her soon.)"
+        MC "(Я надеюсь, что мама, наконец, передумает и скоро ее отпустит.)"
     else:
-        MC "(I hope that Linda finally changes her mind and lets up on her soon.)"
+        MC "(Я надеюсь, что Линда, наконец, передумает и скоро ее отпустит.)"
 
     scene SR2_NS3_p10
 
-    MC "Mmmm…."
+    MC "Ммм…."
     Sara "Mwah!"
     scene SR2_NS3_p10anim
     if renpy.loadable("patch.rpy"):
-        MC "(I hope none of the family wake up and look out their windows right now… It’d give Dad a heart attack!)"
+        MC "(Надеюсь, никто из семьи не проснется и не выглянет в окно прямо сейчас ... у папы будет сердечный приступ!)"
     else:
-        MC "(I hope none of my roommates wake up and look out their windows right now… It’d give Bob a heart attack!)"
+        MC "(Надеюсь, никто из семьи не проснется и не выглянет в окно прямо сейчас ... у Боба будет сердечный приступ!)"
 
 
     scene SR2_NS3_p11
 
-    Sara "Mmm…"
-    Sara "(I go weak, each time he kisses me like this. It’s like all the energy just leaves my body…)"
-    Sara "(I’ll have to break it soon, or we’ll get distracted and miss the best part of the night sky!)"
+    Sara "Ммм…"
+    Sara "(Я слабею каждый раз, когда он целует меня вот так. Как будто вся энергия покидает мое тело…)"
+    Sara "(Мне скоро придется его остановить, или мы отвлечемся и пропустим лучшую часть ночного неба!)"
 
     scene SR2_NS3_p12
 
-    Sara "(Pant) W-Wow…"
-    Sara "(That was sensational…)"
+    Sara "(Пыхтит) о-ого…"
+    Sara "(Это было потрясающе…)"
 
     scene SR2_NS3_p13
 
-    Sara "Just like that."
-    MC "Hmm?"
-    Sara "That’s EXACTLY how I want to be kissed when we meet. It’s just perfect."
-    MC "I’ll try and remember to do that more often for you, then."
+    Sara "Просто так."
+    MC "Хмм?"
+    Sara "Именно так я хочу, чтобы ты меня поцеловал, когда мы встретимся. Это просто замечательно."
+    MC "Тогда я постараюсь делать это почаще для тебя."
 
 
     scene SR2_NS3_p14
@@ -174,258 +174,258 @@ label SR2_NS3_label:
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Miami Viceroy.mp3', channel="music2", loop=True, fadein = 2)
 
-    Sara "C’mon! Hurry up, [player_name]! We don’t have forever!"
-    MC "Yeah, I’m coming!"
-    Sara "I don’t think I’ll be able to get up onto the roof without your help. Can you give me a boost?"
+    Sara "пошли! Поспеши, [player_name]! мы же не навечно тут"
+    MC "Да, я иду!"
+    Sara "Не думаю, что смогу подняться на крышу без твоей помощи. Не мог бы ты подтолкнуть?"
 
     scene SR2_NS3_p15
 
-    MC "Sure, no problem. How’s this?"
-    Sara "I’m almost there! Just a little bit more!"
-    Sara "Make sure you don’t drop me!"
+    MC "Конечно, никаких проблем. Как тебе это?"
+    Sara "Я почти добрался до цели! Просто помоги еще немного!"
+    Sara "Убедись, что не бросишь меня!"
 
     scene SR2_NS3_p16
 
-    MC "Don’t worry, I won’t drop you, Sara. There’s nothing at all that could possibly distract me right now."
-    Sara "You’re looking at my panties, aren’t you?"
-    MC "...maybe."
+    MC "Не волнуйся, я не собираюсь бросать тебя, Сара. Нет ничего, что могло бы отвлечь меня прямо сейчас."
+    Sara "Ты смотришь на мои трусики, Не так ли?"
+    MC "...возможно."
 
     scene SR2_NS3_p17
 
-    Sara "Pervert!"
-    MC "I can’t help it! It’s just the angle you were at!"
+    Sara "Извращениц!"
+    MC "Ничего не могу с этим поделать! Это просто угол, под которым я был!"
 
     scene SR2_NS3_p18
 
-    Sara "Uh huh, I’m sure!"
-    Sara "You can find your own way up!"
-    MC "Wait - aren’t you going to give me a hand?"
+    Sara "Угу, я уверена!"
+    Sara "Ты сможешь подняться сам!"
+    MC "Подожди, ты не собираешься мне помочь?"
 
     scene SR2_NS3_p19
 
-    MC "Hello?"
-    MC "Sara?"
-    MC "(Sigh…)"
+    MC "Алло?"
+    MC "Сара?"
+    MC "(вздох…)"
 
     scene SR2_NS3_p20
 
-    MC "Hnnngg! C’mon! Almost there!"
-    MC "(Just a couple more inches…)"
+    MC "Хнннгг! Да ладно! Почти получилось!"
+    MC "(Еще пара дюймов.…)"
 
     scene SR2_NS3_p21
 
-    MC "(Phew!)"
-    MC "I finally made it, Sara!"
-    MC "Sara?"
+    MC "(УФ..)"
+    MC "У меня наконец-то получилось, Сара!"
+    MC "Сара?"
 
 
     scene SR2_NS3_p22
 
-    MC "Sara, are you okay?"
-    Sara "They’re all so beautiful. Look at them, [player_name]."
-    Sara "Sit down beside me."
+    MC "Сара, с тобой все в порядке?"
+    Sara "Они все такие красивые. Смотреть на них, [player_name]."
+    Sara "Садись рядом со мной."
 
     scene SR2_NS3_p23
 
-    MC "Wow, we got clear skies tonight."
-    Sara "There’s so many… you couldn’t even begin to count them…"
+    MC "Вау, у нас сегодня чистое небо."
+    Sara "Их так много... ты даже сосчитать не сможешь.…"
 
     scene SR2_NS3_p24
 
-    Sara "I’d love to go exploring them someday. Just travelling from star to star."
-    Sara "It would be so wonderful…"
-    Sara "Just look at the colours: Purples and greens and yellows…"
+    Sara "Я хотела бы пойти исследовать их когда-нибудь. Просто путешествовали от звезды к звезде."
+    Sara "Было бы так замечательно…"
+    Sara "Просто посмотрите на цвета: пурпурные, зеленые и желтые…"
 
     scene SR2_NS3_p25
 
-    Sara "The greatest imagination in the world couldn’t come up with something as perfect as this."
-    Sara "It’s… infinite."
-    Sara "We’re like ants in a sandbox, staring out into a garden we could never fully explore."
+    Sara "Наибольшее воображение в мире не смогло бы придумать ничего столь совершенного."
+    Sara "Это ... бесконечное количество."
+    Sara "Мы как муравьи в песочнице, смотрим в сад, который никогда не сможем полностью исследовать."
 
     scene SR2_NS3_p26
 
-    MC "There’s billions of those stars. And yet, the one place I’d choose to be is exactly where I am right now."
-    MC "Right here on this roof, beside you."
-    Sara "Really?"
+    MC "Там миллиарды таких звезд. И все же, единственное место, где бы я хотел быть, это именно то, где я сейчас нахожусь."
+    MC "Прямо здесь, на крыше, рядом с тобой."
+    Sara "Правда?"
 
     scene SR2_NS3_p27
 
-    MC "Really, Sara. That’s the truth."
-    Sara "I’m sorry I’m not ready yet."
-    MC "Ready for what, Sara?"
+    MC "Правда, Сара. Это правда."
+    Sara "Прости, что я еще не готова."
+    MC "Готова к чему, Сара?"
 
     scene SR2_NS3_p28
 
-    Sara "For sex… and stuff like that."
-    Sara "I know you want it - and if I can’t give you it then some other girl will."
-    MC "It’s not like that."
-    Sara "Please... I’ve seen how other girls in class look at you. Even after you made a fool of yourself in front of Celia, they still think you’re hot."
-    MC "(Ugh, I wish she didn’t bring up that incident with Mrs. Celia. I’m STILL cringing when I think about it!)"
-    Sara "I want to go further with you tonight. Could… we try anal?"
-    MC "Are you sure? We don’t have to-"
-    Sara "I want to. I’m not ready to use my pussy yet, but I think… maybe I can do anal. I won’t know if I don’t try."
+    Sara "Для секса... и тому подобного."
+    Sara "Я знаю, что ты хочешь этого, и если я не могу дать тебе это, то это сделает какая-то другая девушка."
+    MC "Это не так."
+    Sara "Пожалуйста... Я видела, как другие девочки в классе смотрят на тебя. Даже после того, как ты выставил себя дураком перед Селией, они все еще думают, что ты секси."
+    MC "(Жаль, что она упомянула об этом инциденте с миссис Силией. Я все еще съеживаюсь, когда думаю об этом!)"
+    Sara "Я хочу пойти с тобой дальше Сегодня вечером. Может ... попробуем анальный секс?"
+    MC "Ты уверена? Мы не должны-"
+    Sara "Я хочу. Я еще не готова использовать свою киску, но я думаю ... может быть, я смогу попробовать анал. Я не узнаю, если не попытаюсь."
 
     scene SR2_NS3_p29
 
-    MC "I don’t want to hurt you."
-    Sara "Y-You won’t hurt me."
-    MC "You don’t know that for sure."
-    Sara "(Gulp) P-Please don’t try to talk me out of it."
+    MC "Я не хочу причинить тебе боль."
+    Sara "Ты не причинишь мне вреда."
+    MC "Ты не знаешь этого наверняка."
+    Sara "(глоток)Пожалуйста, не пытайся отговорить меня от этого."
 
     scene SR2_NS3_p30
 
-    MC "Will you at least promise me that you’ll tell me to stop if it starts to hurt?"
-    Sara "… I promise."
-    MC "Okay."
+    MC "Ты хотя бы пообещаешь мне, что скажешь мне остановиться, если будет больно?"
+    Sara "...Я обещаю."
+    MC "хорошо."
 
     scene SR2_NS3_p31
 
-    MC "At least let me finger you for a bit first, to turn you on."
-    Sara "I… Ahh…"
-    MC "(Her pussy is so warm right now.)"
+    MC "По крайней мере, позволь мне сначала пощупать тебя пальцем, чтобы возбудить."
+    Sara "Я… Ахх…"
+    MC "(Ее киска сейчас такая теплая.)"
 
     scene SR2_NS3_p32
 
-    Sara "W-Wait… Can we just… get straight to it?"
-    MC "Why? Is something wrong?"
+    Sara "Подожди ... мы можем просто ... перейти прямо к делу?"
+    MC "Почему? Что-то не так?"
 
     scene SR2_NS3_p33
 
-    Sara "If we do foreplay, then I might… chicken out."
-    MC "If you're sure."
-    Sara "Y-Yeah, I think this is for the best."
+    Sara "Если мы сделаем прелюдию, то я могу ... свалить."
+    MC "Если ты в этом уверена."
+    Sara "Д-Да, я думаю, что это к лучшему."
 
     scene SR2_NS3_p33a
 
-    MC "Do you want to take off your panties now?"
-    MC "Why do you look so shocked?"
-    Sara "I… You were just so forward about it!"
-    MC "How am I going to fuck you if you’ve still got them on? Haha"
+    MC "Ты хочешь снять свои трусики сейчас?"
+    MC "Почему ты так шокирована?"
+    Sara "Я... ты так об этом!"
+    MC "Как я буду с тобой трахаться, если они все еще на тебе? Хаха"
 
     scene SR2_NS3_p34
 
-    Sara "Fine, I’m taking them off now."
-    Sara "(God, I hope nobody sees us up here. I wonder if [player_name] has even thought about the risks of doing this.)"
-    Sara "Umm… [player_name], do you think anyone will be able to see us up here?"
-    MC "Nah, absolutely not. It’s too dark - plus we’re not near a main street. Do you know anyone who walks around looking at the roofs of houses?"
+    Sara "Хорошо, я снимаю их прямо сейчас."
+    Sara "(Боже, надеюсь, никто нас здесь не увидит. Интересно, [player_name] хотя бы задумывался о рисках, связанных с этим.)"
+    Sara "Умм… [player_name],как думаешь, кто-нибудь сможет нас здесь увидеть?"
+    MC "Нет, абсолютно нет. Слишком темно, к тому же мы не возле главной улицы. Ты знаешь кого-нибудь, кто ходит вокруг и смотрит на крыши домов?"
 
     scene SR2_NS3_p35
 
-    Sara "*Gulp* If you say so."
-    MC "It’ll be fine. As long as we’re quiet we shouldn’t get caught."
+    Sara "*глоток* Если ты так говоришь."
+    MC "Все будет хорошо. Пока мы молчим, нас не должны поймать."
     if renpy.loadable("patch.rpy"):
-        MC "Plus, the rest of our family should have been asleep for A LONG time by now."
+        MC "К тому же, остальные уже давно должны были спать."
     else:
-        MC "Plus, the rest of our roommates should have been asleep for A LONG time by now."
-    MC "(Damn, it’s a shame I can’t use her pussy tonight. My cock would fit so snuggly in that tight little hole.)"
+        MC "Кроме того, остальные наши соседи уже спят давно."
+    MC "(Черт, жаль, что я не могу использовать ее киску сегодня. Мой член поместится так уютно в этой тугой дырочке.)"
 
     scene SR2_NS3_p36
 
-    Sara "O-Okay, I think I’m ready. How do you want me to do this?"
-    MC "How about you lean forward over the tip of the roof? I’ll stand behind you."
-    Sara "Is it safe?"
-    MC "It’ll be fine - it’s only a few feet. We’ll hardly hurt ourselves if we fall."
+    Sara "Хорошо, я думаю, что готова. Как ты хочешь, чтобы я это сделала?"
+    MC "Как насчет того, чтобы наклониться вперед над верхушкой крыши? Я буду стоять за твоей спиной."
+    Sara "Это безопасно?"
+    MC "Все будет хорошо - всего несколько футов. Мы вряд ли навредим себе, если упадем."
 
     scene SR2_NS3_p37
 
-    Sara "Is this okay? Do you need me to angle my ass up more?"
-    MC "That’s perfect, Sara. Just stay like that."
-    MC "(What a view! This is either going to be the most unusual place I will ever have sex with a woman in my life… Or the most unusual story of how a guy ended up in hospital!)"
+    Sara "Это нормально? Тебе нужно, чтобы я больше двигала задницей?"
+    MC "Это замечательно, Сара. Просто оставайтесь в такой позе."
+    MC "(Какой вид! Это будет самое необычное место, где я буду заниматься сексом с женщиной в моей жизни... или самые необычные истории о том как парень попал в больницу!)"
 
     scene SR2_NS3_p38
 
-    Sara "This is gonna hurt, isn’t it?"
-    MC "I… don’t know, Sara. Sorry, I’ve never had a dick in my ass before."
-    Sara "Just… go slow, okay?"
+    Sara "Это будет больно, не так ли?"
+    MC "Я... не знаю, Сара. Прости, у меня никогда раньше не было члена в заднице."
+    Sara "Просто... не торопись, ладно?"
 
 
     scene SR2_NS3_p39
 
-    MC "Try to relax, Sara. I’ll take things very slowly. And if you want me to stop, for any reason, just say."
-    MC "I don’t want to cause you any pain. For all I know, it might take us two or three attempts, before I can even get it all the way in."
-    MC "We’ll just take things as the come, okay?"
+    MC "Постарайся расслабиться, Сара. Я буду действовать очень медленно. И если ты хочешь, чтобы я остановился по какой-то причине, просто скажи."
+    MC "Я не хочу причинять тебе боль. Все, что я знаю, это может занять у нас две или три попытки, прежде чем я смогу войти полностью"
+    MC "Мы просто примем все как есть, хорошо?"
 
     scene SR2_NS3_p40
 
-    Sara "Thanks, [player_name]."
-    Sara "*Deep breath*"
-    Sara "(I just have to keep breathing and focus on keeping my voice down.)"
-    Sara "(I can feel his glans pushing up against my asshole… This is it!)"
+    Sara "спасибо, [player_name]."
+    Sara "*глубокий вдох*"
+    Sara "(Я просто должена продолжать дышать и сосредоточиться на том, чтобы не говорить.)"
+    Sara "(Я чувствую, как его головка прижимается к моей заднице... вот оно!)"
 
     scene SR2_NS3_p41
 
-    Sara "Mmmm!"
-    MC "Are you alright?"
+    Sara "Мммм!"
+    MC "Ты в порядке?"
     scene SR2_NS3_p41anim
-    Sara "Mmm hmm!"
-    Sara "(Goddamn! His cock is fucking huge!)"
+    Sara "Мммм Хмм!"
+    Sara "(Черт возьми! Его член чертовски огромный!)"
 
     scene SR2_NS3_p42
 
-    Sara "Ahhh…. Ugh…"
-    Sara "(Why didn’t I think to start with something small first? Like a finger or two?!)"
-    MC "(Oooh! This is great! She’s so tight that I can barely get it in!)"
+    Sara "Аааа.... Уфф…"
+    Sara "(Почему я не подумала начать с чего-то маленького? Например, палец или два?!)"
+    MC "(Оооо! Это здорово! Она такая тугая, что я едва могу в нее влезть!)"
 
     scene SR2_NS3_p43
 
-    MC "Ahh… Yes… Ugh!"
-    Sara "Ow…"
-    MC "Fuck, this is good…"
+    MC "Ах ... Да... УФ!"
+    Sara "ой…"
+    MC "Черт, это хорошо…"
 
     scene SR2_NS3_p44
 
-    Sara "Ah… Ah… Oww… Ah…"
-    MC "(I didn’t manage to get it in very far. I’ll pull out and try again.)"
-    MC "How are you holding up there, Sara?"
-    Sara "Fine! Ugh…"
+    Sara "Ах... Ах... Ох... Ах…"
+    MC "(Мне не удалось зайти слишком глубоко. Я вытащу и попробую еще раз.)"
+    MC "Как ты там держишься, Сара?"
+    Sara "Отлично! Уф…"
 
     scene SR2_NS3_p45
 
-    MC "I’m going to try thrusting it in again. I’ll go slowly."
-    Sara "(Fuck! He’s so damn thick! I don’t know if I can handle this much longer!)"
+    MC "Я попробую засунуть его снова. Я буду двигаться медленно."
+    Sara "(Черт! Он чертовски толстый! Я не знаю, смогу ли я справиться с этим намного дольше!)"
 
     scene SR2_NS3_p46
 
-    MC "Ooohhh yeah… That’s the spot!"
+    MC "Оооо да... это то самое место!"
     scene SR2_NS3_p46aanim
-    Sara "AHHH!"
+    Sara "АХХХ!"
     scene SR2_NS3_p46anim
-    MC "(Damn! She’s being REALLY loud right now!)"
+    MC "(Черт! Она сейчас ОЧЕНЬ громко разговаривает!)"
 
     scene SR2_NS3_p47
 
-    Sara "(SHIT!! FUCK!)"
-    Sara "(Damn! This hurts so much! I should NEVER have agreed to this!)"
-    Sara "(Why didn’t I just let him fuck my pussy?! God DAMN!)"
+    Sara "(ЧЕРТ!! ЧЕРТ!)"
+    Sara "(Черт! Это причиняет мне такую боль! Я не должен была на это соглашаться!)"
+    Sara "(Почему я просто не позволила ему трахнуть мою киску?! Черт возьми!)"
 
     scene SR2_NS3_p48
 
-    Sara "Fuck! It hurts! Pull it out! Pull it out!"
-    MC "Really? I’m not even halfway in yet!"
-    Sara "It’s sooooo sore!"
-    MC "(Damn, I’m not that far from cumming. I could VERY quickly thrust a few more times and cum in her ass…)"
+    Sara "Черт! Больно! Вытащи его! Вытащи его!"
+    MC "Правда? Я еще даже на половину не вошел!"
+    Sara "Это ооооочень больно!"
+    MC "(Черт, я не так далеко от Камминга. Я мог бы очень быстро засунуть еще несколько раз и кончить ей в задницу…)"
 
     menu:
-        "A few more thrusts won’t hurt her. Right?":
+        "Еще несколько толчков ей не повредят. Верно?":
             scene SR2_NS3_p48
 
-            MC "(A few more thrusts won’t hurt her. I’ll quickly cum and then we’ll be done with it.)"
-            Sara "Are you pulling out, [player_name]?"
+            MC "(Еще несколько толчков ей не повредят. Я быстро кончу, и тогда мы покончим с этим.)"
+            Sara "Ты выходишь из [player_name]?"
 
             scene SR2_NS3_p47
 
-            MC "Mmm! Ahh! Ahh! Hnnng!"
-            Sara "AHHH! AHHH!"
-            Sara "FUCK! OUCH! OWIE! TAKE IT OUT!"
+            MC "Ммм! Ахх! Ахх! Хннн!"
+            Sara "АХХХ! АХХХ!"
+            Sara "Черт! Ай! Оуи! ВЫСУНЬ ЕГО!"
             Sara "[player_name]!!!!"
 
             scene SR2_NS3_p49
 
-            MC "HNNNNGGG! UGH! YES!"
+            MC "ГМММ! УХ! ДА!"
             scene SR2_NS3_p49anim
-            MC "(Fuck! This feels good! Her ass is so tight; it's milking my cock!)"
+            MC "(Черт! Как хорошо! Ее задница такая тугая; она доит мой член!)"
             scene SR2_NS3_p49aanim
-            Sara "AHH! AHH OWWW!"
+            Sara "АХХ! АХХ ОЙЙЙ!"
             scene white with dissolve
             $ renpy.pause(0.7, hard = True)
             scene SR2_NS3_p49 with dissolve
@@ -434,67 +434,67 @@ label SR2_NS3_label:
             $ renpy.pause(0.7, hard = True)
             scene SR2_NS3_p50a with dissolve
 
-            MC "Phew…"
-            Sara "Oww…. Ouch..."
-            Sara "Why’d you do that, [player_name]? It REALLY hurt!"
-            MC "Sorry Sara, I was just so close to cumming."
-            Sara "Hmmpph… Just don’t do it again!"
+            MC "УФ…"
+            Sara "ОУ.... Ой..."
+            Sara "Зачем ты это сделал, [player_name]? Мне очень больно!"
+            MC "Прости, Сара, я был так близок к тому, чтобы кончить."
+            Sara "Хммм ... просто не делай так больше!"
             jump SR2_NS3_continue
-        "I better finish up. I don’t want to hurt her by mistake.":
+        "Мне лучше закончить начатое. Я не хочу причинить ей боль.":
 
             scene SR2_NS3_p49
 
-            MC "(I better pull it out, I don’t want to hurt Sara by accident.)"
-            MC "It’s okay, Sara, I’m pulling out now."
-            Sara "Oww… Th-Thanks, [player_name]."
+            MC "(Я лучше вытащу его, я не хочу навредить Саре.)"
+            MC "Все в порядке, Сара, я сейчас вытащу."
+            Sara "ОУ ... Спасибо., [player_name]."
 
             scene SR2_NS3_p50
 
-            MC "There we go, that’s it out."
-            Sara "I’m sorry you didn’t get to cum."
-            MC "It’s okay, Sara. I wasn’t going to have any fun if you were in pain."
+            MC "Вот так-то, вот и все."
+            Sara "Мне жаль, что тебе не удалось кончить."
+            MC "Все в порядке, Сара. Я не собиралась веселиться, если тебе больно.."
             jump SR2_NS3_continue
 
 
 label SR2_NS3_continue:
     scene SR2_NS3_p51
 
-    Sara "That was really, really sore..."
-    MC "I’ll tell you what, how about I go out and I buy us some lube instead?"
-    Sara "Lube?"
-    MC "Yeah, it’s a slippery stuff some couples use during sex."
+    Sara "Это было очень, очень больно..."
+    MC "Вот что я тебе скажу, как насчет того, чтобы я пошел и купил нам смазку?"
+    Sara "смазка?"
+    MC "Да, это скользкая штука, которую некоторые пары используют во время секса."
 
     scene SR2_NS3_p52
 
-    Sara "What do I do with it?"
-    MC "I’ll put it in your ass and around my cock. It should help it slide in easier."
-    Sara "Will it… make it less sore?"
-    MC "It should. If we’re lucky it MIGHT even make it feel good for you."
+    Sara "Что мне с этим делать?"
+    MC "Я смажу тебе задницу и смажу свой член. Это должно помочь ему легче входить"
+    Sara "Это... сделает его менее болезненным?"
+    MC "Должно. Если нам повезет, это может даже заставить тебя чувствовать себя хорошо."
 
     scene SR2_NS3_p53
 
-    Sara "No way! I don’t think I could EVER enjoy what we just did! Haha!"
-    MC "That’s okay, we don’t have to do it again."
-    Sara "But I WANT to do it for you."
-    MC "Sara, you don’t have to offer anal if it’s going to hur-"
+    Sara "Нет! Я не думаю, что смогу когда-либо наслаждаться тем, что мы только что сделали! Хаха!"
+    MC "Все в порядке, мы не должны делать это снова."
+    Sara "Но я ХОЧУ сделать это для тебя."
+    MC "Сара, ты не должна предлагать анальный секс если это причиняет тебе боль"
 
     scene SR2_NS3_p54
 
     Sara "Mwah!"
-    MC "Mmm!"
-    MC "(Sara doesn't need to put herself through trials like this to make me happy. She should know by now that I’m already happy with her.)"
+    MC "Ммм!"
+    MC "(Саре не нужно проходить через такие испытания, чтобы сделать меня счастливой. Она должна знать, что я уже счастлива с ней.)"
 
     scene SR2_NS3_p55
 
-    Sara "Thank you, [player_name]. You’ve made this one of the most magical nights of my life."
-    Sara "Can we just agree to forget that the last bit on the roof happened?"
-    MC "Haha, sure... Staring at the stars was my favourite part anyway."
-    Sara "Hehe, mine too."
+    Sara "Спасибо, [player_name]. Ты сделала эту ночь одной из самых волшебных в моей жизни."
+    Sara "Может, просто забудем, что случилось в последний момен на крыше?"
+    MC "Ха-ха, конечно... В любом случае, смотреть на звезды было моей любимой частью."
+    Sara "Хе-хе, мой тоже."
     if renpy.loadable("patch.rpy"):
-        MC "C’mon, we better sneak back inside before Mom or Dad notice us missing. I’ll help you down from the roof."
+        MC "Давай, нам лучше вернуться внутрь, пока мама или папа не заметили, что мы пропали. Я помогу тебе спуститься с крыши."
     else:
-        MC "C’mon, we better sneak back inside before Linda or Bob notice us missing. I’ll help you down from the roof."
-    Sara "Thanks, [player_name]."
+        MC "Давай, нам лучше вернуться внутрь, пока Линда или боб не заметили, что мы пропали. Я помогу тебе спуститься с крыши."
+    Sara "спасибо, [player_name]."
 
     $ renpy.music.stop(channel="music1", fadeout=1)
     $ renpy.music.play('/sfx/Sock Hop.mp3', channel="music2", loop=True, fadein = 2)
