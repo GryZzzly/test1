@@ -1,8 +1,8 @@
 init -2 python:
 
     import renpy.store as store
-    import renpy.exports as renpy 
-    from operator import attrgetter 
+    import renpy.exports as renpy
+    from operator import attrgetter
 
 
     sms = None
@@ -44,24 +44,24 @@ screen contact_screen:
             $ c_pic = Transform(contact.image_idle, zoom=.63)
 
             $ c_hover = Transform(contact.image_hover, zoom=.63)
-            if contact.name == "Linda":
+            if contact.name == "Линда":
                 imagebutton idle c_pic hover c_hover xpos x_c ypos y_c action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable("Contact", Contact), SetVariable("Linda_unread_alert", True),Hide("contact_screen"), Show("m_from_Linda"), ] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
             if contact.name == "Linda" and Linda_unread_alert == False:
                 add Transform("images/game_gui/phone/sms/Alert1.png", zoom=.7) xpos x_c ypos y_c anchor (0,0)
 
-            if contact.name == "Sara":
+            if contact.name == "Сара":
                 imagebutton idle c_pic hover c_hover xpos x_c ypos y_c action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable("Contact", Contact),SetVariable("Sara_unread_alert", True),Hide("contact_screen"), Show("m_from_Sara")] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
             if contact.name == "Sara" and Sara_unread_alert == False:
                 add Transform("images/game_gui/phone/sms/Alert1.png", zoom=.7) xpos x_c ypos y_c anchor (0,0)
 
-            if contact.name == "Caroline":
+            if contact.name == "Каролина":
                 imagebutton idle c_pic hover c_hover xpos x_c ypos y_c action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable("Contact", Contact),SetVariable("Caroline_unread_alert", True),Hide("contact_screen"),Show("m_from_Caroline")] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
-            if contact.name == "Caroline" and Caroline_unread_alert == False:
+            if contact.name == "Каролина" and Caroline_unread_alert == False:
                 add Transform("images/game_gui/phone/sms/Alert1.png", zoom=.7) xpos x_c ypos y_c anchor (0,0)
 
-            if contact.name == "Zuri":
+            if contact.name == "Зури":
                 imagebutton idle c_pic hover c_hover xpos x_c ypos y_c action [Play ("sound", "sfx/phone_click2.mp3"), SetVariable("Contact", Contact), SetVariable("Zuri_unread_alert", True),Hide("contact_screen"), Show("m_from_Zuri"), ] hovered [ Play ("sound", "sfx/phone_click.mp3"),]
-            if contact.name == "Zuri" and Zuri_unread_alert == False:
+            if contact.name == "Зури" and Zuri_unread_alert == False:
                 add Transform("images/game_gui/phone/sms/Alert1.png", zoom=.7) xpos x_c ypos y_c anchor (0,0)
 
         $ i_c += 1
